@@ -203,7 +203,7 @@ def all_holidays_with_bbq(holiday_supplies)
     data.each do |holiday,supply|
       binding.pry
       supply_bbq = []
-      if supply == "BBQ"
+      if supply.include?("BBQ")
          supply_bbq.push(holiday)
       end
     end
