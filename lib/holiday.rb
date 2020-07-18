@@ -209,7 +209,7 @@ def all_holidays_with_bbq(holiday_supplies)
     end
     
   end
-  return supply_bbq
+  supply_bbq
 end
 
 
