@@ -202,8 +202,9 @@ def all_holidays_with_bbq(holiday_supplies)
       if supply == "BBQ"
          supply_bbq.push(holiday)
       end 
+      supply_bbq
     end
-    supply_bbq
+    
   end
 end
 
