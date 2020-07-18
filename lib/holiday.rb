@@ -199,9 +199,9 @@ def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.each do |season,data|
    
     data.each do |holiday,supply|
-       binding.pry
       if supply == "BBQ"
             supply_bbq.push(holiday)
+            binding.pry
             
       end 
     end 
