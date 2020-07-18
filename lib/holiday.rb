@@ -196,7 +196,7 @@ def all_holidays_with_bbq(holiday_supplies)
   }
 }
   
-      supply_bbq = []
+  supply_bbq = []
   holiday_supplies.each do |season,data|
 
     data.each do |holiday,supply|
